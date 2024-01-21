@@ -19,7 +19,7 @@ function runAway() {
 }
 setTimeout(function () {
   alert("jayda nhi socho aur bas meri jaan ban jao");
-  var audio = new Audio("music/song.mp3");
+  // var audio = new Audio("music/song.mp3");
   audio.loop = true;
   audio.play();
 }, 8000);
